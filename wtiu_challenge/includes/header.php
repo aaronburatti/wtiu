@@ -1,3 +1,4 @@
+//this makes everthing accessible
 <?php include "includes/db/db.php"; ?>
 <?php include "functions.php"; ?>
 
@@ -6,6 +7,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href=" css/styles.css">
   </head>
@@ -21,12 +23,4 @@
       particular graph.</p>
       <p>All of these implementations use <a href="https://developers.google.com/chart">Google Charts</a>
       for the Pie Chart basis. Google Charts is a JavaScript API.</p>
-    </div>
-    <div class="main-nav">
-      <ul>
-        <li><a href="index.php?source=rdb">PHP</a></li>
-        <li><a href="index.php?source=vjs">Vanilla JS</a></li>
-        <li><a href="index.php?source=vue">Vue JS</a></li>
-      </ul>
-      <hr/>
     </div>
