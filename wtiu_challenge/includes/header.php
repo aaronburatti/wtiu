@@ -1,4 +1,4 @@
-//this makes everthing accessible
+<!-- this makes everthing accessible -->
 <?php include "includes/db/db.php"; ?>
 <?php include "functions.php"; ?>
 

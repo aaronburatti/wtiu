@@ -24,10 +24,11 @@ confirm($result);
  ?>
 
 
-<form class="census_form" action="index.php?source=rdb" method="post">
+<form action="index.php?source=rdb" method="post">
+  <div class=".census_form">
   <p>This is app uses PHP and MySQL for it's behind the scenes magic. When the submit
   button is clicked a script inputs the data to a database while simultaneously
-  logging changes to a text file.</p>
+  logging the current changes to the screen.</p>
   <hr>
   <h4>2017 Census of Miscellany Under Your Couch Cushions</h4>
   <p>What percent of the whole do the following items take under
@@ -61,6 +62,7 @@ confirm($result);
 <div class="form-component">
   <input id="submit" type="submit" name="submit" value="submit">
 </div>
+  </div>
 </form>
 
 <script type="text/javascript">
